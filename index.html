@@ -91,7 +91,7 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>1、安装虚拟机，导入ubuntu镜像<br>2、Ubuntu自带python 通过 ls -l &#x2F;usr&#x2F;bin | grep python 查找python版本</p>
+        <p>1、安装虚拟机，导入ubuntu镜像<br>2、Ubuntu自带python 通过 ls -l &#x2F;usr&#x2F;bin | grep python 查找python版本<br>3、设置Ubuntu中文输入法：<br>-1 区域与语言选择中文<br>-2 键盘选择中文输入法<br>4、安装git<br>-1、sudo apt-get install git<br>-2 配置用户名和邮箱 git config –global user.name  git config –global user.email<br>-3 生成sshkey  ssh-keygen -t rsa -C “user.email”<br>-4 复制sshkey 添加到github配置中<br>5、查看文件内容 cat 文件名<br>6、代码提交git<br>-1、进入src文件，初始化git仓库 git init<br>-2、新建分支 git checkout -b 新分支名称<br>-3、创建远程仓库 git remote add 远程地址名称 仓库地址（如果配置了sshkey 可以用<a href="mailto:&#103;&#105;&#x74;&#x40;&#x67;&#105;&#116;&#104;&#x75;&#98;&#x2e;&#99;&#x6f;&#x6d;">&#103;&#105;&#x74;&#x40;&#x67;&#105;&#116;&#104;&#x75;&#98;&#x2e;&#99;&#x6f;&#x6d;</a>:用户名&#x2F;仓库名.git）<br>-4、git add 文件名 将待提交文件提交到待提交区<br>-5、git commit -m “提交说明” 提交文件<br>-6、git pull 远端名称 分支名称 将远端文件与本地文件合并<br>-7、git push 远端名称 分支名称  将当前的提交推送到远端主机的分支上</p>
 
       
     </div>
